@@ -1,36 +1,4 @@
-- title: "Đám cưới"
-  date: "2020-05-20"
-  photos:
-    - image: "https://images.unsplash.com/photo-1529634890264-f46f1d11b6c5"
-      description: "Khoảnh khắc trao nhẫn"
-    - image: "https://images.unsplash.com/photo-1520857014576-2c4f4c972b57"
-      description: "Ảnh cưới ngoài trời"
 
-- title: "Sinh nhật bé"
-  date: "2021-09-15"
-  photos:
-    - image: "https://images.unsplash.com/photo-1604625464096-7c8ad2a1c9d6"
-      description: "Bánh sinh nhật đầy màu sắc"
-    - image: "https://images.unsplash.com/photo-1507914372361-06cf9f5fa6f1"
-      description: "Cả nhà chụp ảnh chung"
-
-- title: "Chuyến du lịch Đà Lạt"
-  date: "2022-07-10"
-  photos:
-    - image: "https://images.unsplash.com/photo-1586953208448-dc9c6e9f9f8b"
-      description: "Check-in tại quảng trường Lâm Viên"
-    - image: "https://images.unsplash.com/photo-1591084728794-79c6dff38fa0"
-      description: "Đồi chè xanh mát"
-
-- title: Lễ tốt nghiệp
-  date: 2023-11-05
-  photos:
-    - image: "https://images.unsplash.com/photo-1519681393784-d120267933ba"
-      description: "Mừng tốt nghiệp đại học"
-    - image: "https://images.unsplash.com/photo-1502720705749-3c8c8a4b9a6b"
-      description: "Chụp ảnh cùng bạn bè"
-  
-  
 - date: "19/07/2025"
   title: "Kỷ niệm họp lớp KTXN K37 ở Cần Thơ"
   photos:
@@ -40,5 +8,10 @@
       description: "Gia đình cùng mấy dì xét nghiệm."
     - image: "https://1drv.ms/i/c/c37f00bdb584acd7/IQRXakV8etLkQr6EbWyfF4tMAVkocG8nSyFyKPoBTlWKbq4?width=1080&height=720"
       description: "Quốc Kiên cùng bạn mới cắt bánh kem."
+    - image: "https://1drv.ms/i/c/c37f00bdb584acd7/IQTNuYdkD94KR7ykGjnhG_pkARhfXtiG51OOlYrCNawc1cg?width=2560&height=1707"
+      description: "Anh chàng cười tít mắt."
+    - image: "https://1drv.ms/i/c/c37f00bdb584acd7/IQQ4tsgBG0YJSptkSphDgriFAb1EUQVCUYm3n4CvXqfeNXA?width=960&height=1280"
+      description: "Tiếp tục nào!."
+
 
 
