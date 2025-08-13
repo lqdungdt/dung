@@ -9,7 +9,6 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
