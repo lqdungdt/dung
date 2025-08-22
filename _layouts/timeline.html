@@ -154,7 +154,16 @@ title: Album Gia đình
       </ul>
     </div>
   {% endfor %}
+
 </div>
+{% if event.videos %}
+  {% for video in event.videos %}
+    <div class="video-container">
+      <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+      {% if video.description %}<p>{{ video.description }}</p>{% endif %}
+    </div>
+  {% endfor %}
+{% endif %}
 
 <!-- Popup modal -->
 <div id="imgModal">
