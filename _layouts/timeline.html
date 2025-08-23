@@ -173,14 +173,14 @@ title: Album Gia đình
       {% if event.videos %}
         {% for video in event.videos %}
           <div class="video-container">
-            <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+            <iframe src="{{ video.url }}" width="720" height="405" frameborder="0" allowfullscreen></iframe>
           </div>
-          {% if video.description %}<p>{{ video.description }}</p>{% endif %}
-        {% endfor %}
+          {% if video.description %}<p>{{ video.description }}</p>
       {% endif %}
     </div>
   {% endfor %}
 </div>
+
 
 <!-- Popup modal -->
 <div id="imgModal">
