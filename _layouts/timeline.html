@@ -87,21 +87,25 @@ title: Album Gia đình
   color: #555;
 }
 
-/* Video style */
+/* Video style (responsive 16:9) */
 .video-container {
   position: relative;
+  width: 100%;
   padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
   overflow: hidden;
   margin: 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .video-container iframe {
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  border-radius: 8px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
 }
 
 /* Responsive layout for mobile */
@@ -173,14 +177,16 @@ title: Album Gia đình
       {% if event.videos %}
         {% for video in event.videos %}
           <div class="video-container">
-            <iframe src="{{ video.url }}" width="720" height="405" frameborder="0" allowfullscreen></iframe>
+            <iframe src="{{ video.url }}" allowfullscreen></iframe>
           </div>
-          {% if video.description %}<p>{{ video.description }}</p>
+          {% if video.description %}
+            <p>{{ video.description }}</p>
+          {% endif %}
+        {% endfor %}
       {% endif %}
     </div>
   {% endfor %}
 </div>
-
 
 <!-- Popup modal -->
 <div id="imgModal">
